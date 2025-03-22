@@ -1,0 +1,21 @@
+CREATE TABLE job_applications (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    company TEXT NOT NULL,
+    isResumeTailored BOOLEAN NOT NULL,
+    coverLetterIncluded TINYINT NOT NULL CHECK (coverLetterIncluded IN (0, 1, 2)),
+    isReferral BOOLEAN NOT NULL,
+    reachedOutToRecruiter BOOLEAN NOT NULL,
+    timeSinceApplicationOpened INTEGER,
+    applicantsAlreadyApplied INTEGER,
+    salaryRangeMidpoint REAL,
+    salaryRequestedMidpoint REAL,
+    companyLocation TEXT,
+    dateApplied TEXT,
+    dateRejected TEXT,
+    rejectedAtRound INTEGER,
+    technicalRoundsTaken INTEGER DEFAULT 0,
+    behavioralRoundsTaken INTEGER DEFAULT 0,
+    notes TEXT,
+    gptMatchScore REAL,
+    githubMatchingProject BOOLEAN
+);
