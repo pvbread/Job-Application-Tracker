@@ -1,0 +1,4 @@
+company,isResumeTailored,coverLetterIncluded,isReferral,reachedOutToRecruiter,timeSinceApplicationOpened,applicantsAlreadyApplied,salaryRangeMidpoint,salaryRequestedMidpoint,companyLocation,dateApplied,dateRejected,rejectedAtRound,technicalRoundsTaken,behavioralRoundsTaken,notes,gptMatchScore,githubMatchingProject
+OpenAI,1,1,0,1,5,100,150000,160000,San Francisco,2025-03-01,,,2,1,"Exciting opportunity",85,1
+Etsy,0,1,1,0,3,50,140000,140000,New York,2025-03-02,,,1,2,"Met with recruiter",92,0
+ZebraTech,1,0,0,1,2,20,120000,125000,Austin,2025-03-03,,,1,1,"Remote-first culture",78,1
